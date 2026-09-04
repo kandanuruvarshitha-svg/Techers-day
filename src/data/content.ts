@@ -7,7 +7,7 @@ export const contentData: ContentConfig = {
   tagline: "FOR THE MAN WHO TAUGHT ME MORE THAN ANY BOOK EVER COULD…",
   heroSubtitle: "You may teach many students, but you will always be my first teacher.",
   heroImage: "/images/dad-hero.jpg",
-  deployedUrl: "https://my-first-teacher-dad.vercel.app", // Editable URL for QR Code generator
+  deployedUrl: "https://techers-day.vercel.app/", // Editable URL for QR Code generator
   audioPath: "/audio/background.mp3",
   videoPath: "/media/message.mp4",
   hasVideo: true,
