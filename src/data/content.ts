@@ -1,9 +1,9 @@
 import { ContentConfig } from '../types';
 
 export const contentData: ContentConfig = {
-  fatherName: "Dad",
+  fatherName: "Daddy",
   studentName: "Your Student ❤️",
-  siteTitle: "MY FIRST TEACHER — DAD ❤️",
+  siteTitle: "MY FIRST TEACHER — DADDY ❤️",
   tagline: "FOR THE MAN WHO TAUGHT ME MORE THAN ANY BOOK EVER COULD…",
   heroSubtitle: "You may teach many students, but you will always be my first teacher.",
   heroImage: "/images/dad-hero.jpg",
@@ -12,7 +12,7 @@ export const contentData: ContentConfig = {
   videoPath: "/media/message.mp4",
   hasVideo: true,
 
-  storyHeading: "Before I called you Dad...",
+  storyHeading: "Before I called you Daddy...",
   storySubheading: "I was already learning from you.",
   storyParagraphs: [
     "You taught me lessons that were never written on a blackboard.",
@@ -136,13 +136,13 @@ export const contentData: ContentConfig = {
 
   letter: {
     heading: "A Letter From Your Student",
-    salutation: "Dear Dad,",
+    salutation: "Dear Daddy,",
     paragraphs: [
       "People may know you as a teacher, but I know you as the person who taught me some of life's most important lessons.",
       "You have been there when I succeeded, when I failed, when I was confused, and when I needed someone to simply believe in me.",
       "Some teachers teach from books. You taught me through your actions.",
       "If I become a good person someday, a big part of that will be because I learned from you.",
-      "Thank you for being my teacher, my guide, my supporter, and my Dad."
+      "Thank you for being my teacher, my guide, my supporter, and my Daddy."
     ],
     closing: "With all my love and gratitude,",
     signature: "Your Student ❤️"
@@ -151,7 +151,7 @@ export const contentData: ContentConfig = {
   award: {
     sectionHeading: "THE MOST IMPORTANT AWARD",
     title: "CERTIFICATE OF APPRECIATION",
-    presentedTo: "DAD",
+    presentedTo: "DADDY",
     reason: "For being an extraordinary teacher, mentor, guide, supporter, and the person who has taught one student the most important lessons of life.",
     badgeText: "BEST TEACHER — FOREVER",
     dateText: "Teacher's Day | September 5",
@@ -159,18 +159,18 @@ export const contentData: ContentConfig = {
   },
 
   finalSurprise: {
-    pauseText: "Dad…",
+    pauseText: "Daddy…",
     mainHeading: "Thank you for being the teacher",
     subHeading: "I never had to search for.",
-    messageText: "Happy Teacher's Day, Dad! You will forever be my inspiration and my hero."
+    messageText: "Happy Teacher's Day, Daddy! You will forever be my inspiration and my hero."
   },
 
   greetingCard: {
     frontTitle: "HAPPY TEACHER’S DAY",
-    frontSubtitle: "DAD ❤️",
+    frontSubtitle: "DADDY ❤️",
     insideHeading: "MY FIRST TEACHER",
     insideMessage: "You have taught many students, but you taught me how to live.",
     scanInstruction: "Scan this QR code for your personalized surprise experience.",
-    fromText: "From your student, who is lucky enough to call you Dad."
+    fromText: "From your student, who is lucky enough to call you Daddy."
   }
 };

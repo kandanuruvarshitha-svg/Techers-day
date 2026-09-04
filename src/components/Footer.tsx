@@ -11,7 +11,7 @@ export const Footer: React.FC = () => {
         <div className="flex items-center justify-center gap-2">
           <span className="font-serif font-bold text-xl text-cream-50">MY FIRST TEACHER</span>
           <Heart className="w-5 h-5 text-red-500 fill-red-500" />
-          <span className="font-serif font-bold text-xl text-gold-400">DAD</span>
+          <span className="font-serif font-bold text-xl text-gold-400">DADDY</span>
         </div>
 
         <p className="text-xs sm:text-sm text-cream-300/70 font-light max-w-md italic">
@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="pt-6 border-t border-cream-100/10 text-[11px] text-cream-300/40 font-mono">
-          Happy Teacher's Day • Made with love for Dad
+          Happy Teacher's Day • Made with love for Daddy
         </div>
       </div>
     </footer>

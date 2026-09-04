@@ -15,7 +15,7 @@ export const CardPage: React.FC = () => {
       const url = canvas.toDataURL('image/png');
       const a = document.createElement('a');
       a.href = url;
-      a.download = 'Teacher-Day-Dad-QR.png';
+      a.download = 'Teacher-Day-Daddy-QR.png';
       a.click();
     }
   };
@@ -140,7 +140,7 @@ export const CardPage: React.FC = () => {
             <div className="py-6 space-y-4 flex flex-col items-center justify-center">
               <div className="text-xs font-mono uppercase tracking-widest font-bold text-gold-700 flex items-center gap-1.5">
                 <Sparkles className="w-4 h-4 text-gold-600" />
-                <span>SCAN ME, DAD ❤️</span>
+                <span>SCAN ME, DADDY ❤️</span>
               </div>
 
               {/* Rendered SVG for sharp display & hidden Canvas for PNG download */}

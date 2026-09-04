@@ -21,7 +21,7 @@ export const AwardSection: React.FC = () => {
       const image = canvas.toDataURL('image/png');
       const link = document.createElement('a');
       link.href = image;
-      link.download = `Best-Teacher-Award-Dad.png`;
+      link.download = `Best-Teacher-Award-Daddy.png`;
       link.click();
     } catch (err) {
       console.error("Certificate download failed", err);

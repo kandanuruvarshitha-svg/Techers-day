@@ -80,7 +80,7 @@ export const OpeningScreen: React.FC<OpeningScreenProps> = ({ onStart }) => {
                     MY FIRST TEACHER
                   </h1>
                   <h2 className="text-3xl sm:text-5xl md:text-6xl font-serif font-semibold gold-gradient-text flex items-center justify-center gap-3">
-                    DAD <Heart className="w-8 h-8 sm:w-10 sm:h-10 text-red-500 fill-red-500 inline animate-bounce" />
+                    DADDY <Heart className="w-8 h-8 sm:w-10 sm:h-10 text-red-500 fill-red-500 inline animate-bounce" />
                   </h2>
                 </div>
 

@@ -27,7 +27,7 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-4xl sm:text-6xl md:text-7xl font-serif font-bold text-navy-900 leading-tight"
         >
-          Happy Teacher’s Day, <span className="text-gold-600">Dad</span> <Heart className="w-8 h-8 sm:w-12 sm:h-12 text-red-500 fill-red-500 inline-block align-middle" />
+          Happy Teacher’s Day, <span className="text-gold-600">Daddy</span> <Heart className="w-8 h-8 sm:w-12 sm:h-12 text-red-500 fill-red-500 inline-block align-middle" />
         </motion.h1>
 
         {/* Subtitle */}
@@ -51,8 +51,8 @@ export const Hero: React.FC = () => {
         <div className="relative rounded-2xl overflow-hidden shadow-lg border border-gold-500/20 bg-cream-50">
           <ImageWithFallback
             src={contentData.heroImage}
-            alt="Dad - My First Teacher"
-            fallbackText="Dad — My First Teacher & Hero"
+            alt="Daddy - My First Teacher"
+            fallbackText="Daddy — My First Teacher & Hero"
             aspectRatio="aspect-4/5"
             className="rounded-2xl"
           />
