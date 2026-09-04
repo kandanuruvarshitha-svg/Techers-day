@@ -172,31 +172,5 @@ export const contentData: ContentConfig = {
     insideMessage: "You have taught many students, but you taught me how to live.",
     scanInstruction: "Scan this QR code for your personalized surprise experience.",
     fromText: "From your student, who is lucky enough to call you Dad."
-  },
-
-  dashboard: {
-    initialDates: [
-      { id: "1", title: "Teacher's Day", date: "2026-09-05", category: "School", note: "Annual celebration and gratitude day" },
-      { id: "2", title: "Dad's Birthday", date: "2026-10-15", category: "Birthday", note: "Surprise family dinner" },
-      { id: "3", title: "School Annual Day", date: "2026-11-20", category: "School", note: "Dad's school event" }
-    ],
-    initialNotes: [
-      { id: "n1", title: "Teaching Philosophy", content: "Inspire curiosity first; facts and formulas will follow naturally.", createdAt: "2026-09-01" },
-      { id: "n2", title: "Favorite Book Quote", content: "Education is not the filling of a pail, but the lighting of a fire.", createdAt: "2026-09-02" }
-    ],
-    initialReminders: [
-      { id: "r1", text: "Prepare lesson plans for next week", done: false, dueDate: "2026-09-06" },
-      { id: "r2", text: "Review student project submissions", done: true, dueDate: "2026-09-04" },
-      { id: "r3", text: "Take evening walks for relaxation", done: false, dueDate: "Daily" }
-    ],
-    initialResources: [
-      { id: "res1", title: "National Geographic Education", description: "Interactive maps and science learning tools for students.", url: "https://www.nationalgeographic.org/education/", category: "Science & Geography" },
-      { id: "res2", title: "Khan Academy for Educators", description: "Free lesson plans, practice exercises, and instructional videos.", url: "https://www.khanacademy.org", category: "General Teaching" },
-      { id: "res3", title: "Google Classroom", description: "Manage assignments, grade papers, and communicate with students.", url: "https://classroom.google.com", category: "Class Management" }
-    ],
-    initialExpenses: [
-      { id: "e1", title: "Books & Stationeries for Students", category: "Teaching Supplies", amount: 45.00, date: "2026-09-01" },
-      { id: "e2", title: "Whiteboard Markers Set", category: "Classroom Supplies", amount: 18.50, date: "2026-09-02" }
-    ]
   }
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, QrCode, LayoutDashboard } from 'lucide-react';
+import { Heart, QrCode } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { contentData } from '../data/content';
 
@@ -22,10 +22,6 @@ export const Footer: React.FC = () => {
           <Link to="/card" className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-cream-100/10 hover:bg-gold-500 hover:text-navy-950 text-cream-200 transition-colors">
             <QrCode className="w-3.5 h-3.5" />
             <span>Digital & Printable Card</span>
-          </Link>
-          <Link to="/dad-dashboard" className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-cream-100/10 hover:bg-gold-500 hover:text-navy-950 text-cream-200 transition-colors">
-            <LayoutDashboard className="w-3.5 h-3.5 text-gold-400" />
-            <span>Dad's Personal Space</span>
           </Link>
         </div>
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link as RouterLink, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Heart, QrCode, LayoutDashboard } from 'lucide-react';
+import { Menu, X, Heart, QrCode } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -59,14 +59,6 @@ export const Navbar: React.FC = () => {
             <QrCode className="w-3.5 h-3.5" />
             <span>QR CARD</span>
           </RouterLink>
-
-          <RouterLink
-            to="/dad-dashboard"
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-navy-900 text-cream-100 hover:bg-navy-800 transition-all duration-300 shadow-sm"
-          >
-            <LayoutDashboard className="w-3.5 h-3.5 text-gold-400" />
-            <span>DAD'S SPACE</span>
-          </RouterLink>
         </div>
 
         {/* Mobile Hamburger Toggle */}
@@ -106,15 +98,6 @@ export const Navbar: React.FC = () => {
               >
                 <QrCode className="w-4 h-4" />
                 <span>Physical Greeting Card & QR</span>
-              </RouterLink>
-
-              <RouterLink
-                to="/dad-dashboard"
-                onClick={() => setIsOpen(false)}
-                className="flex items-center justify-center gap-2 py-2.5 rounded-xl bg-navy-900 text-cream-100 font-bold"
-              >
-                <LayoutDashboard className="w-4 h-4 text-gold-400" />
-                <span>Dad's Personal Space</span>
               </RouterLink>
             </div>
           </motion.div>

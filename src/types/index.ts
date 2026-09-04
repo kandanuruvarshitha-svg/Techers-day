@@ -52,44 +52,6 @@ export interface GreetingCardContent {
   fromText: string;
 }
 
-export interface ImportantDate {
-  id: string;
-  title: string;
-  date: string;
-  category: 'Birthday' | 'Anniversary' | 'School' | 'Family' | 'Other';
-  note?: string;
-}
-
-export interface NoteItem {
-  id: string;
-  title: string;
-  content: string;
-  createdAt: string;
-}
-
-export interface ReminderItem {
-  id: string;
-  text: string;
-  done: boolean;
-  dueDate?: string;
-}
-
-export interface TeachingResource {
-  id: string;
-  title: string;
-  description: string;
-  url: string;
-  category: string;
-}
-
-export interface ExpenseItem {
-  id: string;
-  title: string;
-  category: string;
-  amount: number;
-  date: string;
-}
-
 export interface ContentConfig {
   fatherName: string;
   studentName: string;
@@ -110,11 +72,4 @@ export interface ContentConfig {
   award: AwardContent;
   finalSurprise: FinalSurpriseContent;
   greetingCard: GreetingCardContent;
-  dashboard: {
-    initialDates: ImportantDate[];
-    initialNotes: NoteItem[];
-    initialReminders: ReminderItem[];
-    initialResources: TeachingResource[];
-    initialExpenses: ExpenseItem[];
-  };
 }
